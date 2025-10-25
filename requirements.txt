@@ -10,3 +10,15 @@ langchain-groq==1.0.0
 structlog==25.4.0
 python-docx==1.2.0
 reportlab==4.4.4
+
+
+-e .
+
+# after setting up toml file , we need to run -e . 
+
+# this line is to test imports
+# python -c "import ipykernel, langgraph, langchain; print('All imports OK!')"
+
+
+# For single packages → uv add package_name
+# For requirements.txt → uv pip install -r requirements.txt
